@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  portfolio:
+    container_name: robin-portfolio
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/front-end
+    restart: always
