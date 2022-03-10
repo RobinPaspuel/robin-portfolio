@@ -66,7 +66,52 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>I am etcetcetc...</SectionText>
+      <SectionText>
+        I am from Ecuador, my native language is Spanish but I have English
+        proficiency (C1 TOEFL). I&apos;m currently in my last year of IT
+        engineering at{" "}
+        <a
+          href="https://www.yachaytech.edu.ec/mtics/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#FB8500" }}
+        >
+          Yachay Tech University
+        </a>
+        . Through my career I have gained experience on solving problems,
+        working in teams, and of course many programming languages, even
+        developing my own programming language. I also worked with artificial
+        intelligence, in this field I presented my work at the{" "}
+        <a
+          href="https://www.resurchify.com/ed/ideal-2020-21th-international-conference-on-intelligent/7613"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#FB8500" }}
+        >
+          21th International Conference on Intelligent Data Engineering and
+          Automated Learning (IDEAL 2020).
+        </a>{" "}
+        This work was published in{" "}
+        <a
+          href="https://link.springer.com/chapter/10.1007/978-3-030-62365-4_19"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#FB8500" }}
+        >
+          Lecture Notes in Computer Science.
+        </a>{" "}
+        <br />
+        My journey in the web development starts in 2020, learning about the
+        technologies and realising the gap that exists between what the
+        University teaches and what the real world is asking for. I started to
+        learn by myself all the modern technologies and forming study groups
+        with my colleages. Nowadays, in my free time I am a volunteer leading
+        the development of a medical platform using FastAPI and NextJS as the
+        base technologies. <br />
+        Despite all the knowledge I gained through these years, I&apos;m sure I
+        still need to keep learning and this is just the beggining of my
+        journey.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map(({ year, text }, index) => (

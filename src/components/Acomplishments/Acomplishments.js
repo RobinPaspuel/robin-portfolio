@@ -9,9 +9,9 @@ const Acomplishments = () => (
   <Section>
     <SectionTitle>Personal Acomplishments</SectionTitle>
     <Boxes>
-      {acomplishments.map(({number, text}, index) => (
+      {acomplishments.map(({title, text}, index) => (
         <Box key={index}>
-          <BoxNum>{number}+</BoxNum>
+          <BoxNum>{title}</BoxNum>
           <BoxText>{text}</BoxText>
         </Box>
       ))}

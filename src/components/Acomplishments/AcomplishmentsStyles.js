@@ -23,9 +23,11 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
+  display: flex;
+  flex-direction: column;
   background: #012537;
   border-radius: 12px;
-  height: 144px;
+  height: 174px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -49,7 +51,7 @@ export const Box = styled.div`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
@@ -66,6 +68,7 @@ export const BoxNum = styled.h5`
 `
 
 export const BoxText = styled.p`
+  margin-top: auto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

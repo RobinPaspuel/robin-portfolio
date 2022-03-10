@@ -19,8 +19,8 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-111">111-111-111</LinkItem>
+          <LinkTitle>Mobile</LinkTitle>
+          <LinkItem href="https://wa.me/593988428289">+593 988-428-289</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -31,7 +31,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>This is just a test</Slogan>
+          <Slogan>Developed with NextJS - Deployed in Azure with Docker</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://robinpaspuel.github.io/">

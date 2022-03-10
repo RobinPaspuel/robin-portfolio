@@ -38,16 +38,13 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2015, text: 'Started the IT Engineering career at Yachay Tech Univeristy', },
+  { year: 2020, text: 'Published my first paper. Started my journey in Web Development', },
+  { year: 2021, text: 'Volunteering in Web Development.', },
+  { year: 2022, text: 'Start my journey in the real world!', },
 ];
 
 export const acomplishments = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { title: "IDEAL 2020", text: 'Speaker at IDEAL 2020'},
+  { title: "LNCS", text: 'Paper published at LNCS', },
 ];
